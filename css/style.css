@@ -1,5 +1,10 @@
 @charset "UTF-8";
 /* CSS Document */
+
+/*
+動画講義を収録した後に、ウェブフォント「NotoSansCJKjp-Regular」の配信が終了しました。
+このためフォントの読み込みに関するエラーが発生します。
+*/
 @font-face {
   font-family: 'Noto Sans JP';
   font-style: normal;
@@ -200,7 +205,7 @@ img{
   margin-right: 36px;
 }
 .label-radio{
-  margin-right: 36px; /* ←0pxじゃない？ */
+  margin-right: 36px;
 }
 .form-parts__radio{
   -webkit-appearance: none;
@@ -265,92 +270,92 @@ img{
   .sp__img{
     display: inline;
   }
-    /*-----------------------
-    *
-    * section
-    *
-    ------------------------*/
-    .section-title{
-      padding: 16px 0;
-      font-size: 2rem;
-      line-height: 1;
-    }
-    .inner{
-      padding: 40px 20px 70px;
-    }
-    .inner-b{
-      padding-bottom: 40px;
-    }
-    /*-----------------------
-    *
-    * guest
-    *
-    ------------------------*/
-    .guest-name{
-      margin-bottom: 40px;
-    }
-    .name{
-      display: block;
-    }
-    /*-----------------------
-    *
-    * access
-    *
-    ------------------------*/
-    .maps-outer{
-      padding-top: 66.7%;
-    }
-    /*-----------------------
-    *
-    * entry
-    *
-    ------------------------*/
-    .info-detail:last-of-type{
-      margin-bottom: 32px;
-    }
-    .form-item{
-      margin-bottom: 40px;
-    }
-    .form-item:last-of-type{
-      margin-bottom: 56px;
-    }
-    .form-item__radio{
-      display: block;
-    }
-    .form-title{
-      display: block;
-      margin-right: 0;
-      margin-bottom: 24px;
-    }
-    .label-area{
-      display: flex;
-      display: -webkit-flex;
-    }
-    .label-radio{
-      box-sizing: border-box;
-      display: block;
-      /* width: 33.333%; */
-      margin-left: 0;
-      margin-right: 0; /* ← 36px？ */
-      padding-right: 20px
-    }
-    .btn{
-      width: 100%;
-      margin-bottom: 6px;
-      padding: 12px 0;
-    }
-    /*-----------------------
-    *
-    * footer
-    *
-    ------------------------*/
-    .footer{
-      padding: 40px 0;
-    }
-    .footer-text{
-      margin-bottom: 32px;
-    }
-    .br-footer{
-      display: block;
-    }
+  /*-----------------------
+  *
+  * section
+  *
+  ------------------------*/
+  .section-title{
+    padding: 16px 0;
+    font-size: 2rem;
+    line-height: 1;
+  }
+  .inner{
+    padding: 40px 20px 70px;
+  }
+  .inner-b{
+    padding-bottom: 40px;
+  }
+  /*-----------------------
+  *
+  * guest
+  *
+  ------------------------*/
+  .guest-name{
+    margin-bottom: 40px;
+  }
+  .name{
+    display: block;
+  }
+  /*-----------------------
+  *
+  * access
+  *
+  ------------------------*/
+  .maps-outer{
+    padding-top: 66.7%;
+  }
+  /*-----------------------
+  *
+  * entry
+  *
+  ------------------------*/
+  .info-detail:last-of-type{
+    margin-bottom: 32px;
+  }
+  .form-item{
+    margin-bottom: 40px;
+  }
+  .form-item:last-of-type{
+    margin-bottom: 56px;
+  }
+  .form-item__radio{
+    display: block;
+  }
+  .form-title{
+    display: block;
+    margin-right: 0;
+    margin-bottom: 24px;
+  }
+  .label-area{
+    display: flex;
+    display: -webkit-flex;
+  }
+  .label-radio{
+    box-sizing: border-box;
+    display: block;
+    /* width: 33.333%; */
+    margin-left: 0;
+    margin-right: 0;
+    padding-right: 20px
+  }
+  .btn{
+    width: 100%;
+    margin-bottom: 6px;
+    padding: 12px 0;
+  }
+  /*-----------------------
+  *
+  * footer
+  *
+  ------------------------*/
+  .footer{
+    padding: 40px 0;
+  }
+  .footer-text{
+    margin-bottom: 32px;
+  }
+  .br-footer{
+    display: block;
+  }
 }
